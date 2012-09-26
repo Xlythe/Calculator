@@ -38,8 +38,8 @@
     <string name="lg" msgid="873623857385418182">"log"</string>
     <string name="leftParen" msgid="4850643713953092099">"("</string>
     <string name="rightParen" msgid="3177971166159324016">")"</string>
-    <string name="basic" msgid="7691469861698059753">"Grundlæggende panel"</string>
+    <string name="basic" msgid="7691469861698059753">"Standard panel"</string>
     <string name="advanced" msgid="7122495413742976492">"Avanceret panel"</string>
-    <string name="clear_history" msgid="8458043980601165012">"Ryd oversigt"</string>
+    <string name="clear_history" msgid="8458043980601165012">"Ryd historik"</string>
     <string name="text_copied_toast" msgid="5801480710472541833">"Tekst er kopieret."</string>
 </resources>
