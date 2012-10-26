@@ -945,26 +945,14 @@ class Logic {
         return formatted.toArray();
     }
 
-    private String toDecimal(String number, int base) {
-        String[] split = number.split("\\.");
-
-        String wholeNumber = "";
-        String decimalNumber = "";
-        wholeNumber = Long.toString(Long.parseLong(split[0], base));
-        if(split.length==1) return wholeNumber;
-        decimalNumber = Long.toString(Long.parseLong(split[1], base)) + "/" + base + "^" + split[1].length();
-        return "(" + wholeNumber + "+(" + decimalNumber + "))";
-    }
-
     private final static int PRECISION = 8;
     private String newBase(String originalNumber, int originalBase, int base) throws SyntaxException{
-        if(originalBase != 10) {
-            originalNumber = Double.toString(mSymbols.eval(toDecimal(originalNumber, originalBase)));
-        }
         String[] split = originalNumber.split("\\.");
+        if(originalBase != 10) {
+            split[0] = Long.toString(Long.parseLong(split[0], originalBase));
+        }
 
         String wholeNumber = "";
-        String decimalNumber = "";
         switch(base) {
         case 2:
             wholeNumber = Long.toBinaryString(Long.parseLong(split[0]));
@@ -976,9 +964,18 @@ class Logic {
             wholeNumber = Long.toHexString(Long.parseLong(split[0]));
             break;
         }
-        if(split.length==1 || Long.valueOf(split[1])==0) return wholeNumber.toUpperCase();
+        if(split.length==1) return wholeNumber.toUpperCase();
 
-        double decimal = Double.parseDouble("0." + split[1]);
+        double decimal = 0;
+        if(originalBase != 10) {
+            String decimalFraction = Long.toString(Long.parseLong(split[1], originalBase)) + "/" + originalBase + "^" + split[1].length();
+            decimal = mSymbols.eval(decimalFraction);
+        } else {
+            decimal = Double.parseDouble("0." + split[1]);
+        }
+        if(decimal==0) return wholeNumber.toUpperCase();
+
+        String decimalNumber = "";
         for(int i=0,id=0;decimal!=0 && i<=PRECISION;i++) {
             decimal *= base;
             id = (int) Math.floor(decimal);
