@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2012-2014 The CyanogenMod Project
+
+	 Licensed under the Apache License, Version 2.0 (the "License");
+	 you may not use this file except in compliance with the License.
+	 You may obtain a copy of the License at
+
+		  http://www.apache.org/licenses/LICENSE-2.0
+
+	 Unless required by applicable law or agreed to in writing, software
+	 distributed under the License is distributed on an "AS IS" BASIS,
+	 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	 See the License for the specific language governing permissions and
+	 limitations under the License.
+-->
+<resources>
+    <!-- App copyright -->
+    <!-- App version -->
+
+    <!-- Displayed letters for the variable digit buttons -->
+    <string name="var_x">X</string>
+    <!-- Displayed letters for the variable digit buttons -->
+
+    <!-- Displayed on buttons on screen for the arcsin function. -->
+    <string name="fun_arcsin">asin</string>
+    <!-- Displayed on buttons on screen for the arccos function. -->
+    <string name="fun_arccos">acos</string>
+    <!-- Displayed on buttons on screen for the arctan function. -->
+    <string name="fun_arctan">atg</string>
+    <!-- Displayed on buttons on screen for the csc function. -->
+    <string name="fun_csc">csc</string>
+    <!-- Displayed on buttons on screen for the sec function. -->
+    <string name="fun_sec">sec</string>
+    <!-- Displayed on buttons on screen for the cot function. -->
+    <string name="fun_cot">ctg</string>
+    <!-- Displayed on buttons on screen for the arccsc function. -->
+    <string name="fun_arccsc">acsc</string>
+    <!-- Displayed on buttons on screen for the arcsec function. -->
+    <string name="fun_arcsec">asec</string>
+    <!-- Displayed on buttons on screen for the arccot function. -->
+    <string name="fun_arccot">actg</string>
+
+    <!-- Descriptions for trig functions -->
+
+    <!-- (Hidden) Displayed on buttons on screen for the integral function. -->
+    <!-- (Hidden) Displayed on buttons on screen for the integral function. -->
+    <string name="dx">dX</string>
+    <!-- (Hidden) Displayed on buttons on screen for the integral function. -->
+    <string name="dy">dY</string>
+    <!-- (Hidden) Displayed on buttons on screen to solve for X. -->
+    <!-- (Hidden) Displayed on buttons on screen to solve for Y. -->
+    <!-- (Hidden) Displayed on buttons on screen for the modulo function. -->
+    <string name="mod">mod</string>
+    <!-- Displayed on button on screen for the cube root function. -->
+    <string name="op_cbrt">\u00b3\u221a</string>
+    <string name="desc_op_cbrt">tria radiko</string>
+
+    <!-- Displayed on buttons on screen for parentheses. -->
+    <string name="desc_parentheses">Krampoj</string>
+
+    <string name="text_copied_toast">Teksto kopiita.</string>
+    <string name="copy">Kopii \'%s\'</string>
+    <string name="remove_from_history">Forigita el historio.</string>
+	
+    <!-- Floating calculator -->
+    <string name="floating_notification_description">Frapetu por malfermi</string>
+
+    <!-- Matrix page text -->
+    <string name="plus_row">+Vic</string>
+    <string name="minus_row">-Vic</string>
+    <string name="plus_col">+Kol</string>
+    <string name="minus_col">-Kol</string>
+    <string name="fun_det">det</string>
+    <string name="fun_inverse">inver</string>
+    <string name="fun_transpose">trans</string>
+    <string name="fun_trace">trace</string>
+    <string name="fun_norm">norm</string>
+    <string name="fun_polar">polar</string>
+
+    <!-- Hex page text -->
+    <string name="hex">16-uma</string>
+    <string name="bin">2-uma</string>
+    <string name="dec">10-uma</string>
+    <string name="desc_hex">Deksesuma</string>
+    <string name="desc_bin">Duuma</string>
+    <string name="desc_dec">Dekuma</string>
+
+    <string name="panel_graph">Diagramoj</string>
+    <string name="panel_advanced">Spertaj</string>
+    <string name="panel_hex">Deksesuma</string>
+    <string name="panel_matrix">Matrico</string>
+    <string name="panel_function">Funkcioj</string>
+    <string name="panel_close_btn">Fermi</string>
+
+    <string name="function_rename">Renomi</string>
+    <string name="function_clear">Vakigi</string>
+
+    <string name="radians">rad</string>
+    <string name="degrees">\u00b0</string>
+</resources>

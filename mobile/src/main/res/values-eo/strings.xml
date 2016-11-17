@@ -1,1 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  Copyright (C) 2014 The Android Open Source Project
 
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources>
+
+    <!-- Name of the application. [CHAR_LIMIT=NONE] -->
+    <string name="app_name">Kalkulilo</string>
+
+    <!-- Error displayed when expression evaluates to NaN. [CHAR_LIMIT=14] -->
+    <!-- Error displayed when expression contains a syntax error. [CHAR_LIMIT=14] -->
+    <string name="error">Eraro</string>
+
+    <!-- Decimal separator (e.g. "1.23"). [CHAR_LIMIT=1] -->
+    <string name="dec_point">.</string>
+
+    <!-- Decimal representation of zero (e.g. "0", "10", "1.0", "1e0"). [CHAR_LIMIT=1] -->
+    <string name="digit0">0</string>
+    <!-- Decimal representation of one (e.g. "1", "11", "1.1", "1e1"). [CHAR_LIMIT=1] -->
+    <string name="digit1">1</string>
+    <!-- Decimal representation of two (e.g. "2", "22", "2.2", "2e2"). [CHAR_LIMIT=1] -->
+    <string name="digit2">2</string>
+    <!-- Decimal representation of three (e.g. "3", "33", "3.3", "3e3"). [CHAR_LIMIT=1] -->
+    <string name="digit3">3</string>
+    <!-- Decimal representation of four (e.g. "4", "44", "4.4", "4e4"). [CHAR_LIMIT=1] -->
+    <string name="digit4">4</string>
+    <!-- Decimal representation of five (e.g. "5", "55", "5.5", "5e5"). [CHAR_LIMIT=1] -->
+    <string name="digit5">5</string>
+    <!-- Decimal representation of six (e.g. "6", "66", "6.6", "6e6"). [CHAR_LIMIT=1] -->
+    <string name="digit6">6</string>
+    <!-- Decimal representation of seven (e.g. "7", "77", "7.7", "7e7"). [CHAR_LIMIT=1] -->
+    <string name="digit7">7</string>
+    <!-- Decimal representation of eight (e.g. "8", "88", "8.8", "8e8"). [CHAR_LIMIT=1] -->
+    <string name="digit8">8</string>
+    <!-- Decimal representation of eight (e.g. "9", "99", "9.9", "9e9"). [CHAR_LIMIT=1] -->
+    <string name="digit9">9</string>
+
+    <!-- Abbrev. name of cosine function (e.g. "cos(π)". [CHAR_LIMIT=3] -->
+    <string name="fun_cos">cos</string>
+    <!-- Natural logarithm function (e.g. "ln(2)"). [CHAR_LIMIT=3] -->
+    <string name="fun_ln">ln</string>
+    <!-- Logarithm function (e.g. "log(10)"). [CHAR_LIMIT=3] -->
+    <string name="fun_log">log</string>
+    <!-- Abbrev. name of sine function (e.g. "sin(π)". [CHAR_LIMIT=3] -->
+    <string name="fun_sin">sin</string>
+    <!-- Abbrev. name of tangent function (e.g. "tan(π)". [CHAR_LIMIT=3] -->
+    <string name="fun_tan">tan</string>
+
+    <!-- Clear operation to clear the currently entered expression. [CHAR_LIMIT=3] -->
+    <string name="clr">vak</string>
+    <!-- Delete operation to remove last entered token. [CHAR_LIMIT=3] -->
+    <string name="del">for</string>
+
+    <!-- Content Descriptions -->
+    <eat-comment />
+
+    <!-- Content description for 'e' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_const_e">Eulera nombro</string>
+    <!-- Content description for 'π' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_const_pi">pi</string>
+
+    <!-- Content description for '.' button. [CHAR_LIMIT=NONE] -->
+
+    <!-- Content description for '(' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_lparen">maldekstra krampo</string>
+    <!-- Content description for ')' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_rparen">dekstra krampo</string>
+
+    <!-- Content description for 'cos' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_cos">kosinuso</string>
+    <!-- Content description for 'ln' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_ln">logaritmo natura</string>
+    <!-- Content description for 'log' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_log">logarithm</string>
+    <!-- Content description for 'sin' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_sin">sinuso</string>
+    <!-- Content description for 'tan' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_tan">tangento</string>
+
+    <!-- Content description for '+' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_add">kaj</string>
+    <!-- Content description for '÷' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_div">dividi</string>
+    <!-- Content description for '!' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_fact">faktorialo</string>
+    <!-- Content description for '×' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_mul">oble</string>
+    <!-- Content description for '^' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_pow">power</string>
+    <!-- Content description for '√' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_sqrt">dua potenco</string>
+    <!-- Content description for '-' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_sub">minus</string>
+
+    <!-- Content description for "clr" button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_clr">vakigi</string>
+    <!-- Content description for "del" button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_del">forigi</string>
+    <!-- Content description for '=' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_eq">egali</string>
+
+</resources>
