@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2012-2014 The CyanogenMod Project
+
+	 Licensed under the Apache License, Version 2.0 (the "License");
+	 you may not use this file except in compliance with the License.
+	 You may obtain a copy of the License at
+
+		  http://www.apache.org/licenses/LICENSE-2.0
+
+	 Unless required by applicable law or agreed to in writing, software
+	 distributed under the License is distributed on an "AS IS" BASIS,
+	 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	 See the License for the specific language governing permissions and
+	 limitations under the License.
+-->
+<resources>
+    <!-- App copyright -->
+    <string name="application_copyright">Copyright \u00A9 2014 The CyanogenMod Project</string>
+    <!-- App version -->
+    <string name="application_version" translatable="false">v3.5.3</string>
+
+    <!-- Displayed letters for the hex digit buttons -->
+    <string name="A" translatable="false">A</string>
+    <!-- Displayed letters for the hex digit buttons -->
+    <string name="B" translatable="false">B</string>
+    <!-- Displayed letters for the hex digit buttons -->
+    <string name="C" translatable="false">C</string>
+    <!-- Displayed letters for the hex digit buttons -->
+    <string name="D" translatable="false">D</string>
+    <!-- Displayed letters for the hex digit buttons -->
+    <string name="E" translatable="false">E</string>
+    <!-- Displayed letters for the hex digit buttons -->
+    <string name="F" translatable="false">F</string>
+    <!-- Displayed letters for the variable digit buttons -->
+    <string name="X">X</string>
+    <!-- Displayed letters for the variable digit buttons -->
+    <string name="Y">Y</string>
+
+    <!-- Do not translate. Plus sign / unicode minus sign; don't translate. Displayed as button on screen. -->
+    <string name="sign" translatable="false">+/\u2212</string>
+    <!-- Do not translate. Coma; don't translate. Displayed as button on screen. -->
+    <string name="coma" translatable="false">,</string>
+
+    <!-- Displayed on buttons on screen for the arcsin function. -->
+    <string name="arcsin">asin</string>
+    <!-- Displayed on buttons on screen for the arccos function. -->
+    <string name="arccos">acos</string>
+    <!-- Displayed on buttons on screen for the arctan function. -->
+    <string name="arctan">atan</string>
+
+    <!-- Displayed on buttons on screen for the value of i. -->
+    <string name="i" translatable="false">i</string>
+    <!-- Displayed on buttons on screen for the percent function. -->
+    <string name="percentage" translatable="false">%</string>
+    <!-- (Hidden) Displayed on buttons on screen for the integral function. -->
+    <string name="integral" translatable="false">\u222B</string>
+    <!-- (Hidden) Displayed on buttons on screen for the integral function. -->
+    <string name="dx">dX</string>
+    <!-- (Hidden) Displayed on buttons on screen for the integral function. -->
+    <string name="dy">dY</string>
+    <!-- (Hidden) Displayed on buttons on screen to solve for X. -->
+    <string name="solveForX">Solve for X</string>
+    <!-- (Hidden) Displayed on buttons on screen to solve for Y. -->
+    <string name="solveForY">Solve for Y</string>
+    <!-- (Hidden) Displayed on buttons on screen for the modulo function. -->
+    <string name="mod">mod</string>
+    <!-- Displayed on button on screen for the cube root function. -->
+    <string name="cbrt">\u00b3\u221a</string>
+
+    <!-- Displayed on buttons on screen for parentheses. -->
+    <string name="parentheses" translatable="false">( )</string>
+
+    <!-- Menu item text to take user to the screen with matrices. -->
+    <string name="matrix">Matrix panel</string>
+    <!-- Menu item text to take user to the screen with the graph. -->
+    <string name="graph">Graph panel</string>
+    <!-- Menu item text to take user to the screen with the function operators. -->
+    <string name="function">Function panel</string>
+    <!-- Menu item text to take user to the screen with the hex digits and operators. -->
+    <string name="hexPanel">Hex panel</string>
+    <!-- Menu item text to lock view pager. -->
+    <string name="lock">Lock page</string>
+    <!-- Menu item text to unlock view pager. -->
+    <string name="unlock">Unlock page</string>
+    <!-- Menu item text to explain themes. -->
+    <string name="info">Info</string>
+
+    <string name="copy">Copy \'%s\'</string>
+    <!-- Menu item for removing item from history -->
+    <string name="remove_from_history">Remove from history</string>
+    <!-- Menu item for viewing history -->
+    <string name="showHistory">Show history</string>
+    <!-- Menu item for hiding history -->
+    <string name="hideHistory">Hide history</string>
+    <!-- Menu item for entering settings -->
+    <string name="settings">Settings</string>
+    <!-- Menu item for entering store -->
+    <string name="store">Store</string>
+
+    <!-- Matrix page text -->
+    <string name="det">det</string>
+    <string name="eigenvalue">Eigen</string>
+    <string name="solve">Solve</string>
+    <string name="dotProduct">Dot</string>
+    <string name="crossProduct">Cross</string>
+    <string name="determinantDesc">det</string>
+    <string name="eigenvalueDesc">Eigenvalues</string>
+    <string name="plus_row">+Row</string>
+    <string name="minus_row">-Row</string>
+    <string name="plus_col">+Col</string>
+    <string name="minus_col">-Col</string>
+    <string name="matrix_new" translatable="false">[ ]</string>
+    <string name="matrix_inverse" translatable="false">-1</string>
+    <string name="matrix_transpose">T</string>
+    <string name="next">Next</string>
+
+    <!-- Hex page text -->
+    <string name="hex">Hex</string>
+    <string name="bin">Bin</string>
+    <string name="dec">Dec</string>
+    <string name="hexDesc">Hexadecimal</string>
+    <string name="binDesc">Binary</string>
+    <string name="decDesc">Decimal</string>
+
+    <!-- Settings page text -->
+    <string name="pref_panels">Panels</string>
+    <string name="pref_actions">Actions</string>
+    <string name="pref_units">Units</string>
+    <string name="pref_theme">Theme</string>
+    <string name="pref_about">About</string>
+    <string name="returnToBasic">Return to the basic panel</string>
+    <string name="infiniteScrolling">Infinite scrolling</string>
+    <string name="clickToOpenHistory">Click to open history</string>
+    <string name="digitGrouping">Digit grouping</string>
+    <string name="trigUnits">Trig units</string>
+    <string name="radians">RAD</string>
+    <string name="degrees">DEG</string>
+    <string name="theme">Theme</string>
+    <string name="showDetails">Show Details</string>
+    <string name="floatingCalc">Floating Calculator</string>
+    <string name="vibrateOnPress">Vibrate on Click</string>
+    <string name="showWidgetBackground">Show Widget Background</string>
+
+    <!-- Clings -->
+    <string name="cling_simple_title">Welcome</string>
+    <string name="cling_simple_msg">Slide left and right to access more content. Unnecessary pages can be disabled in Settings.</string>
+    <string name="cling_matrix_title">Matrices</string>
+    <string name="cling_matrix_msg">Tap here to start building and solving matrices.</string>
+    <string name="cling_hex_title">Change bases</string>
+    <string name="cling_hex_msg">Switch between decimal (dec), binary (bin), and hexadecimal (hex).\n\nWarning: If you believe you\'re getting bad results, you\'re probably in the wrong base. The default is decimal.</string>
+    <string name="cling_graph_title">Graph</string>
+    <string name="cling_graph_msg">Graphs will automatically show up here. Go to the advanced panel and build a function using X and Y.</string>
+    <string name="cling_dismiss">OK</string>
+
+    <!-- Separators for dec, bin, and hex. Must be 1 charater! -->
+    <string name="dec_separator">,</string>
+    <string name="bin_separator">\u0020</string>
+    <string name="hex_separator">\u0020</string>
+    <item name="dec_separator_distance" type="integer">3</item>
+    <item name="bin_separator_distance" type="integer">4</item>
+    <item name="hex_separator_distance" type="integer">2</item>
+
+    <!-- Decimal point. -->
+    <string name="dot">.</string>
+
+    <!-- Store text -->
+    <string name="store_tab_themes">Themes</string>
+    <string name="store_tab_extensions">Extensions</string>
+    <string name="store_price_installed">Installed</string>
+    <string name="store_price_free">Free</string>
+    <string name="store_info_text">Themes give you the ability to change the look and feel of Calculator. They are powerful, letting you adjust almost all fonts, images, and colors.\n\nAnyone is free to write their own theme and share it. A quick and dirty guide is posted here: http://xlythe.com/calculator/theme.html\n\nIf you have any questions, or you have a theme and would like it added to the store, send an email to xlythe@gmail.com. Screenshots or an apk are required for a store submission.</string>
+
+    <string name="easter_egg">Magikarp used Splash but nothing happened.</string>
+
+    <!-- Glass strings -->
+    <string name="glass_start">Calculate</string>
+    <string name="glass_hint">Ask a math question. For example "What's the square root of 8?"</string>
+    <string name="voice_detection_failed">No message recorded</string>
+    <string name="voice_detection_repeat">Tap to speak again</string>
+    <string name="glass_again">Try again</string>
+    <string name="speech_helper_negative" formatted="false">Negative %s</string>
+    <string name="speech_helper_equals" formatted="false">%s equals %s</string>
+</resources>
