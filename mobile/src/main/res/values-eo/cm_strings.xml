@@ -52,10 +52,10 @@
     <string name="mod">mod</string>
     <!-- Displayed on button on screen for the cube root function. -->
     <string name="op_cbrt">\u00b3\u221a</string>
-    <string name="desc_op_cbrt">tria radiko</string>
+    <string name="desc_op_cbrt">radiko tria</string>
 
     <!-- Displayed on buttons on screen for parentheses. -->
-    <string name="desc_parentheses">Krampoj</string>
+    <string name="desc_parentheses">krampoj</string>
 
     <string name="text_copied_toast">Teksto kopiita.</string>
     <string name="copy">Kopii \'%s\'</string>
@@ -87,7 +87,7 @@
     <string name="panel_graph">Diagramoj</string>
     <string name="panel_advanced">Spertaj</string>
     <string name="panel_hex">Deksesuma</string>
-    <string name="panel_matrix">Matrico</string>
+    <string name="panel_matrix">Matricoj</string>
     <string name="panel_function">Funkcioj</string>
     <string name="panel_close_btn">Fermi</string>
 
