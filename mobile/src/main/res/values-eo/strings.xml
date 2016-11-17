@@ -24,7 +24,7 @@
     <string name="error">Eraro</string>
 
     <!-- Decimal separator (e.g. "1.23"). [CHAR_LIMIT=1] -->
-    <string name="dec_point">.</string>
+    <string name="dec_point">,</string>
 
     <!-- Decimal representation of zero (e.g. "0", "10", "1.0", "1e0"). [CHAR_LIMIT=1] -->
     <string name="digit0">0</string>
