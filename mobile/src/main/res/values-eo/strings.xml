@@ -56,7 +56,7 @@
     <!-- Abbrev. name of sine function (e.g. "sin(π)". [CHAR_LIMIT=3] -->
     <string name="fun_sin">sin</string>
     <!-- Abbrev. name of tangent function (e.g. "tan(π)". [CHAR_LIMIT=3] -->
-    <string name="fun_tan">tan</string>
+    <string name="fun_tan">tg</string>
 
     <!-- Clear operation to clear the currently entered expression. [CHAR_LIMIT=3] -->
     <string name="clr">vak</string>
@@ -74,16 +74,16 @@
     <!-- Content description for '.' button. [CHAR_LIMIT=NONE] -->
 
     <!-- Content description for '(' button. [CHAR_LIMIT=NONE] -->
-    <string name="desc_lparen">maldekstra krampo</string>
+    <string name="desc_lparen">ekkrampo</string>
     <!-- Content description for ')' button. [CHAR_LIMIT=NONE] -->
-    <string name="desc_rparen">dekstra krampo</string>
+    <string name="desc_rparen">finkrampo</string>
 
     <!-- Content description for 'cos' button. [CHAR_LIMIT=NONE] -->
     <string name="desc_fun_cos">kosinuso</string>
     <!-- Content description for 'ln' button. [CHAR_LIMIT=NONE] -->
     <string name="desc_fun_ln">logaritmo natura</string>
     <!-- Content description for 'log' button. [CHAR_LIMIT=NONE] -->
-    <string name="desc_fun_log">logarithm</string>
+    <string name="desc_fun_log">logaritmo</string>
     <!-- Content description for 'sin' button. [CHAR_LIMIT=NONE] -->
     <string name="desc_fun_sin">sinuso</string>
     <!-- Content description for 'tan' button. [CHAR_LIMIT=NONE] -->
