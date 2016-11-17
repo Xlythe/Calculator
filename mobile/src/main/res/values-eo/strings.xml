@@ -52,7 +52,7 @@
     <!-- Natural logarithm function (e.g. "ln(2)"). [CHAR_LIMIT=3] -->
     <string name="fun_ln">ln</string>
     <!-- Logarithm function (e.g. "log(10)"). [CHAR_LIMIT=3] -->
-    <string name="fun_log">log</string>
+    <string name="fun_log">lg</string>
     <!-- Abbrev. name of sine function (e.g. "sin(π)". [CHAR_LIMIT=3] -->
     <string name="fun_sin">sin</string>
     <!-- Abbrev. name of tangent function (e.g. "tan(π)". [CHAR_LIMIT=3] -->
@@ -83,7 +83,7 @@
     <!-- Content description for 'ln' button. [CHAR_LIMIT=NONE] -->
     <string name="desc_fun_ln">logaritmo natura</string>
     <!-- Content description for 'log' button. [CHAR_LIMIT=NONE] -->
-    <string name="desc_fun_log">logaritmo</string>
+    <string name="desc_fun_log">logaritmo dekuma</string>
     <!-- Content description for 'sin' button. [CHAR_LIMIT=NONE] -->
     <string name="desc_fun_sin">sinuso</string>
     <!-- Content description for 'tan' button. [CHAR_LIMIT=NONE] -->
