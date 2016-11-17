@@ -61,7 +61,7 @@
     <!-- Clear operation to clear the currently entered expression. [CHAR_LIMIT=3] -->
     <string name="clr">vak</string>
     <!-- Delete operation to remove last entered token. [CHAR_LIMIT=3] -->
-    <string name="del">for</string>
+    <string name="del">\u02ff</string>
 
     <!-- Content Descriptions -->
     <eat-comment />
@@ -98,16 +98,16 @@
     <!-- Content description for '×' button. [CHAR_LIMIT=NONE] -->
     <string name="desc_op_mul">oble</string>
     <!-- Content description for '^' button. [CHAR_LIMIT=NONE] -->
-    <string name="desc_op_pow">power</string>
+    <string name="desc_op_pow">potenco</string>
     <!-- Content description for '√' button. [CHAR_LIMIT=NONE] -->
-    <string name="desc_op_sqrt">dua potenco</string>
+    <string name="desc_op_sqrt">radiko dua</string>
     <!-- Content description for '-' button. [CHAR_LIMIT=NONE] -->
     <string name="desc_op_sub">minus</string>
 
     <!-- Content description for "clr" button. [CHAR_LIMIT=NONE] -->
-    <string name="desc_clr">vakigi</string>
+    <string name="desc_clr">vakigi ĉiujn</string>
     <!-- Content description for "del" button. [CHAR_LIMIT=NONE] -->
-    <string name="desc_del">forigi</string>
+    <string name="desc_del">malfari</string>
     <!-- Content description for '=' button. [CHAR_LIMIT=NONE] -->
     <string name="desc_eq">egali</string>
 
