@@ -14,7 +14,7 @@
 -->
 <resources>
     <!-- App copyright -->
-    <string name="application_copyright">Kopirajto \u00A9 2014 The CyanogenMod Project</string>
+    <string name="application_copyright">Kopirajto \u00A9 2014 La projekto CyanogenMod</string>
     <!-- App version -->
     <string name="application_version" translatable="false">v3.5.3</string>
 
@@ -116,7 +116,7 @@
     <string name="cling_simple_title">Saluton</string>
     <string name="cling_simple_msg">Tiru (mal)dekstren por akiri pli da funkcioj. Malnepraj paĝoj estas kaŝeblaj per agordoj.</string>
     <string name="cling_matrix_title">Matricoj</string>
-    <string name="cling_matrix_msg">Frapetu ĉi tie por eki fari kaj solvi matricojn.</string>
+    <string name="cling_matrix_msg">Frapetu ĉi tie por eki konstrui kaj solvi matricojn.</string>
     <string name="cling_hex_title">Ŝanĝi bazon</string>
     <string name="cling_hex_msg">Elektu inter dekuman, duuman (binaran), kaj deksesuman nombrosistemojn.\n\nAtentu: se vi rigardas, ke vi akiras malkorektajn rezultojn, vi probable estas en misa bazo. La implicita estas dekuma.</string>
     <string name="cling_graph_title">Diagramoj</string>
@@ -139,7 +139,7 @@
     <string name="store_tab_extensions">Kromaĵoj</string>
     <string name="store_price_installed">Instalitaj</string>
     <string name="store_price_free">Senpagaj</string>
-    <string name="store_info_text">Etosoj ebligas ŝanĝi la fasadon de Kalkulilo. Ili estas potencaj, ebligante al vi alĝustigi plejparte da tiparoj, bildoj kaj koloroj.\n\nIu ajn povas fari sian etoson kaj kunhavigi ĝin. La rapidaĉa gvidile estas disponebla tie ĉi: http://xlythe.com/calculator/theme.html\n\nSe vi havas iun demandojn, aŭ vi havas etoson kaj volas aldoni ĝin al la vendejo, sendu retmesaĝon al xlythe@gmail.com. Ekronokopioj nepras por aldoni al vendejo.</string>
+    <string name="store_info_text">Etosoj ebligas ŝanĝi la fasadon de Kalkulilo. Ili estas potencaj, ebligante al vi alĝustigi plejparte da tiparoj, bildoj kaj koloroj.\n\nIu ajn povas fari sian etoson kaj kunhavigi ĝin. La rapidaĉa gvidilo estas disponebla ĉi tie: http://xlythe.com/calculator/theme.html\n\nSe vi havas iun demandon, aŭ vi havas etoson kaj volas aldoni ĝin al la vendejo, sendu retmesaĝon al xlythe@gmail.com. Ekronokopioj nepras por aldoni al vendejo.</string>
 
     <string name="easter_egg">Maĝikarpo uzis Splaŝon sed nenio okazis.</string>
 
