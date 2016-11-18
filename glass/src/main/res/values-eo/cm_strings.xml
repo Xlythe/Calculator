@@ -14,142 +14,114 @@
 -->
 <resources>
     <!-- App copyright -->
-    <string name="application_copyright">Copyright \u00A9 2014 The CyanogenMod Project</string>
+    <string name="application_copyright">Kopirajto \u00A9 2014 The CyanogenMod Project</string>
     <!-- App version -->
     <string name="application_version" translatable="false">v3.5.3</string>
 
-    <!-- Displayed letters for the hex digit buttons -->
-    <string name="A" translatable="false">A</string>
-    <!-- Displayed letters for the hex digit buttons -->
-    <string name="B" translatable="false">B</string>
-    <!-- Displayed letters for the hex digit buttons -->
-    <string name="C" translatable="false">C</string>
-    <!-- Displayed letters for the hex digit buttons -->
-    <string name="D" translatable="false">D</string>
-    <!-- Displayed letters for the hex digit buttons -->
-    <string name="E" translatable="false">E</string>
-    <!-- Displayed letters for the hex digit buttons -->
-    <string name="F" translatable="false">F</string>
     <!-- Displayed letters for the variable digit buttons -->
     <string name="X">X</string>
     <!-- Displayed letters for the variable digit buttons -->
     <string name="Y">Y</string>
-
-    <!-- Do not translate. Plus sign / unicode minus sign; don't translate. Displayed as button on screen. -->
-    <string name="sign" translatable="false">+/\u2212</string>
-    <!-- Do not translate. Coma; don't translate. Displayed as button on screen. -->
-    <string name="coma" translatable="false">,</string>
 
     <!-- Displayed on buttons on screen for the arcsin function. -->
     <string name="arcsin">asin</string>
     <!-- Displayed on buttons on screen for the arccos function. -->
     <string name="arccos">acos</string>
     <!-- Displayed on buttons on screen for the arctan function. -->
-    <string name="arctan">atan</string>
+    <string name="arctan">atg</string>
 
-    <!-- Displayed on buttons on screen for the value of i. -->
-    <string name="i" translatable="false">i</string>
-    <!-- Displayed on buttons on screen for the percent function. -->
-    <string name="percentage" translatable="false">%</string>
-    <!-- (Hidden) Displayed on buttons on screen for the integral function. -->
-    <string name="integral" translatable="false">\u222B</string>
     <!-- (Hidden) Displayed on buttons on screen for the integral function. -->
     <string name="dx">dX</string>
     <!-- (Hidden) Displayed on buttons on screen for the integral function. -->
     <string name="dy">dY</string>
     <!-- (Hidden) Displayed on buttons on screen to solve for X. -->
-    <string name="solveForX">Solve for X</string>
+    <string name="solveForX">Solvi por X</string>
     <!-- (Hidden) Displayed on buttons on screen to solve for Y. -->
-    <string name="solveForY">Solve for Y</string>
+    <string name="solveForY">Solvi por Y</string>
     <!-- (Hidden) Displayed on buttons on screen for the modulo function. -->
     <string name="mod">mod</string>
     <!-- Displayed on button on screen for the cube root function. -->
     <string name="cbrt">\u00b3\u221a</string>
 
-    <!-- Displayed on buttons on screen for parentheses. -->
-    <string name="parentheses" translatable="false">( )</string>
-
     <!-- Menu item text to take user to the screen with matrices. -->
-    <string name="matrix">Matrix panel</string>
+    <string name="matrix">Matrica panelo</string>
     <!-- Menu item text to take user to the screen with the graph. -->
-    <string name="graph">Graph panel</string>
+    <string name="graph">Diagrama panelo</string>
     <!-- Menu item text to take user to the screen with the function operators. -->
-    <string name="function">Function panel</string>
+    <string name="function">Funkcia panelo</string>
     <!-- Menu item text to take user to the screen with the hex digits and operators. -->
-    <string name="hexPanel">Hex panel</string>
+    <string name="hexPanel">Deksesuma panelo</string>
     <!-- Menu item text to lock view pager. -->
-    <string name="lock">Lock page</string>
+    <string name="lock">Ŝlosi paĝon</string>
     <!-- Menu item text to unlock view pager. -->
-    <string name="unlock">Unlock page</string>
+    <string name="unlock">Malŝlosi paĝon</string>
     <!-- Menu item text to explain themes. -->
-    <string name="info">Info</string>
+    <string name="info">Pri</string>
 
-    <string name="copy">Copy \'%s\'</string>
+    <string name="copy">Kopii \'%s\'</string>
     <!-- Menu item for removing item from history -->
-    <string name="remove_from_history">Remove from history</string>
+    <string name="remove_from_history">Forigi el historio</string>
     <!-- Menu item for viewing history -->
-    <string name="showHistory">Show history</string>
+    <string name="showHistory">Montri historion</string>
     <!-- Menu item for hiding history -->
-    <string name="hideHistory">Hide history</string>
+    <string name="hideHistory">Kaŝi historion</string>
     <!-- Menu item for entering settings -->
-    <string name="settings">Settings</string>
+    <string name="settings">Agordoj</string>
     <!-- Menu item for entering store -->
-    <string name="store">Store</string>
+    <string name="store">Vendejo</string>
 
     <!-- Matrix page text -->
     <string name="det">det</string>
-    <string name="eigenvalue">Eigen</string>
-    <string name="solve">Solve</string>
-    <string name="dotProduct">Dot</string>
-    <string name="crossProduct">Cross</string>
-    <string name="determinantDesc">det</string>
-    <string name="eigenvalueDesc">Eigenvalues</string>
-    <string name="plus_row">+Row</string>
-    <string name="minus_row">-Row</string>
-    <string name="plus_col">+Col</string>
-    <string name="minus_col">-Col</string>
-    <string name="matrix_new" translatable="false">[ ]</string>
-    <string name="matrix_inverse" translatable="false">-1</string>
+    <string name="eigenvalue">Ajgeno</string>
+    <string name="solve">Solvi</string>
+    <string name="dotProduct">Skalar</string>
+    <string name="crossProduct">Vektor</string>
+    <string name="determinantDesc">Determinanto</string>
+    <string name="eigenvalueDesc">Ajgenvaloroj</string>
+    <string name="plus_row">+Vic</string>
+    <string name="minus_row">-Vic</string>
+    <string name="plus_col">+Kol</string>
+    <string name="minus_col">-Kol</string>
     <string name="matrix_transpose">T</string>
-    <string name="next">Next</string>
+    <string name="next">Sekva</string>
 
     <!-- Hex page text -->
-    <string name="hex">Hex</string>
-    <string name="bin">Bin</string>
-    <string name="dec">Dec</string>
-    <string name="hexDesc">Hexadecimal</string>
-    <string name="binDesc">Binary</string>
-    <string name="decDesc">Decimal</string>
+    <string name="hex">16-uma</string>
+    <string name="bin">2-uma</string>
+    <string name="dec">10-uma</string>
+    <string name="hexDesc">Deksesuma</string>
+    <string name="binDesc">Duuma</string>
+    <string name="decDesc">Dekuma</string>
 
     <!-- Settings page text -->
-    <string name="pref_panels">Panels</string>
-    <string name="pref_actions">Actions</string>
-    <string name="pref_units">Units</string>
-    <string name="pref_theme">Theme</string>
-    <string name="pref_about">About</string>
-    <string name="returnToBasic">Return to the basic panel</string>
-    <string name="infiniteScrolling">Infinite scrolling</string>
-    <string name="clickToOpenHistory">Click to open history</string>
-    <string name="digitGrouping">Digit grouping</string>
-    <string name="trigUnits">Trig units</string>
-    <string name="radians">RAD</string>
-    <string name="degrees">DEG</string>
-    <string name="theme">Theme</string>
-    <string name="showDetails">Show Details</string>
-    <string name="floatingCalc">Floating Calculator</string>
-    <string name="vibrateOnPress">Vibrate on Click</string>
-    <string name="showWidgetBackground">Show Widget Background</string>
+    <string name="pref_panels">Paneloj</string>
+    <string name="pref_actions">Agoj</string>
+    <string name="pref_units">Unuoj</string>
+    <string name="pref_theme">Etoso</string>
+    <string name="pref_about">Pri</string>
+    <string name="returnToBasic">Reen al baza panelo</string>
+    <string name="infiniteScrolling">Senfina rulumado</string>
+    <string name="clickToOpenHistory">Alklaku por malfermi historion</string>
+    <string name="digitGrouping">Arigi ciferojn</string>
+    <string name="trigUnits">Trigonometriaj unuoj</string>
+    <string name="radians">radianoj</string>
+    <string name="degrees">gradoj</string>
+    <string name="theme">Etoso</string>
+    <string name="showDetails">Montri detalojn</string>
+    <string name="floatingCalc">Glita kalkulilo</string>
+    <string name="vibrateOnPress">Vibri je alklako</string>
+    <string name="showWidgetBackground">Montri fenestraĵan fonon</string>
 
     <!-- Clings -->
-    <string name="cling_simple_title">Welcome</string>
-    <string name="cling_simple_msg">Slide left and right to access more content. Unnecessary pages can be disabled in Settings.</string>
-    <string name="cling_matrix_title">Matrices</string>
-    <string name="cling_matrix_msg">Tap here to start building and solving matrices.</string>
-    <string name="cling_hex_title">Change bases</string>
-    <string name="cling_hex_msg">Switch between decimal (dec), binary (bin), and hexadecimal (hex).\n\nWarning: If you believe you\'re getting bad results, you\'re probably in the wrong base. The default is decimal.</string>
-    <string name="cling_graph_title">Graph</string>
-    <string name="cling_graph_msg">Graphs will automatically show up here. Go to the advanced panel and build a function using X and Y.</string>
-    <string name="cling_dismiss">OK</string>
+    <string name="cling_simple_title">Saluton</string>
+    <string name="cling_simple_msg">Tiru (mal)dekstren por akiri pli da funkcioj. Malnepraj paĝoj estas kaŝeblaj per agordoj.</string>
+    <string name="cling_matrix_title">Matricoj</string>
+    <string name="cling_matrix_msg">Frapetu ĉi tie por eki fari kaj solvi matricojn.</string>
+    <string name="cling_hex_title">Ŝanĝi bazon</string>
+    <string name="cling_hex_msg">Elektu inter dekuman, duuman (binaran), kaj deksesuman nombrosistemojn.\n\nAtentu: se vi rigardas, ke vi akiras malkorektajn rezultojn, vi probable estas en misa bazo. La implicita estas dekuma.</string>
+    <string name="cling_graph_title">Diagramoj</string>
+    <string name="cling_graph_msg">Diagramoj aŭtomate aperos ĉi tie. Iru al sperta panelo kaj difinu funkcion uzante X kaj Y.</string>
+    <string name="cling_dismiss">Bone</string>
 
     <!-- Separators for dec, bin, and hex. Must be 1 charater! -->
     <string name="dec_separator">,</string>
@@ -160,16 +132,16 @@
     <item name="hex_separator_distance" type="integer">2</item>
 
     <!-- Decimal point. -->
-    <string name="dot">.</string>
+    <string name="dot">,</string>
 
     <!-- Store text -->
-    <string name="store_tab_themes">Themes</string>
-    <string name="store_tab_extensions">Extensions</string>
-    <string name="store_price_installed">Installed</string>
-    <string name="store_price_free">Free</string>
-    <string name="store_info_text">Themes give you the ability to change the look and feel of Calculator. They are powerful, letting you adjust almost all fonts, images, and colors.\n\nAnyone is free to write their own theme and share it. A quick and dirty guide is posted here: http://xlythe.com/calculator/theme.html\n\nIf you have any questions, or you have a theme and would like it added to the store, send an email to xlythe@gmail.com. Screenshots or an apk are required for a store submission.</string>
+    <string name="store_tab_themes">Etosoj</string>
+    <string name="store_tab_extensions">Kromaĵoj</string>
+    <string name="store_price_installed">Instalitaj</string>
+    <string name="store_price_free">Senpagaj</string>
+    <string name="store_info_text">Etosoj ebligas ŝanĝi la fasadon de Kalkulilo. Ili estas potencaj, ebligante al vi alĝustigi plejparte da tiparoj, bildoj kaj koloroj.\n\nIu ajn povas fari sian etoson kaj kunhavigi ĝin. La rapidaĉa gvidile estas disponebla tie ĉi: http://xlythe.com/calculator/theme.html\n\nSe vi havas iun demandojn, aŭ vi havas etoson kaj volas aldoni ĝin al la vendejo, sendu retmesaĝon al xlythe@gmail.com. Ekronokopioj nepras por aldoni al vendejo.</string>
 
-    <string name="easter_egg">Magikarp used Splash but nothing happened.</string>
+    <string name="easter_egg">Maĝikarpo uzis Splaŝon sed nenio okazis.</string>
 
     <!-- Glass strings -->
     <string name="glass_start">Calculate</string>
