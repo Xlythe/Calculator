@@ -45,6 +45,7 @@
         android:onClick="onButtonClick"
         longtap:text="@string/fun_tan"
         longtap:altText="@string/fun_arctan"/>
+
     <Button
         android:id="@+id/fun_ln"
         style="@style/PadButtonStyle.Advanced"

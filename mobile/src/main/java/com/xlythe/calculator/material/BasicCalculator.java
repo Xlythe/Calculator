@@ -373,8 +373,8 @@ public abstract class BasicCalculator extends Activity
             case R.id.parentheses:
                 mFormulaEditText.setText('(' + mFormulaEditText.getCleanText() + ')');
                 break;
-            case R.id.fun_cos:
             case R.id.fun_sin:
+            case R.id.fun_cos:
             case R.id.fun_tan:
                 // Add left parenthesis after functions.
                 insert(((LongTapButton) view).getText() + "(");
@@ -417,13 +417,9 @@ public abstract class BasicCalculator extends Activity
                 mFormulaEditText.setText('(' + mFormulaEditText.getCleanText() + ')');
                 return true;
             case R.id.fun_sin:
-                insert(getString(R.string.fun_arcsin) + "(");
-                return true;
             case R.id.fun_cos:
-                insert(getString(R.string.fun_arccos) + "(");
-                return true;
             case R.id.fun_tan:
-                insert(getString(R.string.fun_arctan) + "(");
+                insert(((LongTapButton) view).getAltText() + "(");
                 return true;
         }
         return false;

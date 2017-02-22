@@ -41,7 +41,6 @@ public class LongTapButton extends RelativeLayout {
 
         LayoutInflater.from(context).inflate(R.layout.button_longtap, this);
 
-
         ((Button) findViewById(R.id.button)).setText(mText);
         ((TextView) findViewById(R.id.alt_text)).setText(mAltText);
 	}
@@ -61,4 +60,7 @@ public class LongTapButton extends RelativeLayout {
 		return mText;
 	}
 
+    public String getAltText() {
+        return mAltText;
+    }
 }
