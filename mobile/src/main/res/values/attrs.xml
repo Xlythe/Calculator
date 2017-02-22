@@ -21,4 +21,9 @@
         <attr name="maxTextSize" format="dimension" />
         <attr name="stepTextSize" format="dimension" />
     </declare-styleable>
+
+    <declare-styleable name="LongTapButton">
+        <attr name="text" format="string" />
+        <attr name="altText" format="string" />
+    </declare-styleable>
 </resources>

@@ -22,7 +22,7 @@
     android:rowCount="4">
 
     <Button
-        android:id="@+id/fun_sin"
+        android:id="@+id/button"
         style="@style/PadButtonStyle.FloatingCalc.Advanced"
         android:contentDescription="@string/desc_fun_sin"
         android:onClick="onButtonClick"

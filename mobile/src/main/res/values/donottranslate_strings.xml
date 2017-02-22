@@ -25,6 +25,8 @@
     <string name="leftParen">(</string>
     <!-- Right parenthesis (e.g. "log(2)", "(3 - 1) × 2". [CHAR_LIMIT=1] -->
     <string name="rightParen">)</string>
+    <!-- Put everything between parenthesis (e.g. "(log(2))", "(3 - 1 × 2)". [CHAR_LIMIT=5] -->
+    <string name="allParen">( … )</string>
 
     <!-- Addition operator (e.g. "1 + 2"). [CHAR_LIMIT=1] -->
     <string name="op_add">+</string>

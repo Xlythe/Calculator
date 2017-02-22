@@ -19,7 +19,7 @@
     android:background="@color/pad_advanced_background_color">
 
     <Button
-        android:id="@+id/fun_sin"
+        android:id="@+id/button"
         style="@style/PadButtonStyle.Advanced"
         android:contentDescription="@string/desc_fun_sin"
         android:onClick="onButtonClick"

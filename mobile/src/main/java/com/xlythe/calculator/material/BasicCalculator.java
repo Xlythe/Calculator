@@ -46,6 +46,7 @@ import com.xlythe.calculator.material.view.CalculatorPadView;
 import com.xlythe.calculator.material.view.DisplayOverlay;
 import com.xlythe.calculator.material.view.EqualsImageButton;
 import com.xlythe.calculator.material.view.FormattedNumberEditText;
+import com.xlythe.calculator.material.view.LongTapButton;
 import com.xlythe.calculator.material.view.ResizingEditText.OnTextSizeChangeListener;
 import com.xlythe.math.Constants;
 import com.xlythe.math.EquationFormatter;
@@ -375,6 +376,9 @@ public abstract class BasicCalculator extends Activity
             case R.id.fun_cos:
             case R.id.fun_sin:
             case R.id.fun_tan:
+                // Add left parenthesis after functions.
+                insert(((LongTapButton) view).getText() + "(");
+                break;
             case R.id.fun_ln:
             case R.id.fun_log:
             case R.id.fun_det:
