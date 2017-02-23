@@ -14,19 +14,26 @@
   limitations under the License.
   -->
 
-<com.xlythe.calculator.material.view.CalculatorPadLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.xlythe.calculator.material.view.CalculatorPadLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:longtap="http://schemas.android.com/apk/res-auto"
     android:id="@+id/pad_operator"
     style="@style/PadLayoutStyle.Operator"
     android:background="@color/pad_operator_background_color"
     android:columnCount="1"
     android:rowCount="5">
 
-    <Button
+    <com.xlythe.calculator.material.view.LongClickButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
         android:id="@+id/del"
-        style="@style/PadButtonStyle.Operator.Text"
+        longtap:style="@style/PadLayoutStyle.Operator"
+        longtap:textStyle="@style/PadButtonStyle.Operator.Text"
         android:contentDescription="@string/desc_del"
         android:onClick="onButtonClick"
-        android:text="@string/del" />
+        longtap:text="@string/del"
+        longtap:altText="@string/clr"
+        longtap:altTextSize="10sp"/>
 
     <Button
         android:id="@+id/clr"

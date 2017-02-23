@@ -22,9 +22,11 @@
         <attr name="stepTextSize" format="dimension" />
     </declare-styleable>
 
-    <declare-styleable name="LongTapButton">
+    <declare-styleable name="LongClickButton">
         <attr name="text" format="string" />
         <attr name="altText" format="string" />
+        <attr name="altTextSize" format="dimension" />
         <attr name="style" format="reference" />
+        <attr name="textStyle" format="reference" />
     </declare-styleable>
 </resources>
