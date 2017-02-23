@@ -177,7 +177,6 @@
 
     <style name="PadButtonStyle.Operator">
         <item name="android:textSize">23sp</item>
-        <item name="android:layout_margin">8dp</item>
     </style>
 
     <style name="PadButtonStyle.Operator.Equals">

@@ -16,7 +16,7 @@
 
 <com.xlythe.calculator.material.view.CalculatorPadLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:longtap="http://schemas.android.com/apk/res-auto"
+    xmlns:longclick="http://schemas.android.com/apk/res-auto"
     android:id="@+id/pad_operator"
     style="@style/PadLayoutStyle.Operator"
     android:background="@color/pad_operator_background_color"
@@ -28,11 +28,11 @@
         android:layout_width="match_parent"
         android:id="@+id/del"
         style="@style/PadButtonStyle.LongClick"
-        longtap:textStyle="@style/PadButtonStyle.Operator.Text"
+        longclick:textStyle="@style/PadButtonStyle.Operator.Text"
         android:contentDescription="@string/desc_del"
         android:onClick="onButtonClick"
-        longtap:text="@string/del"
-        longtap:altText="@string/clr"/>
+        longclick:text="@string/del"
+        longclick:altText="@string/clr"/>
 
     <Button
         android:id="@+id/clr"

@@ -48,7 +48,7 @@ public class LongClickButton extends RelativeLayout {
             a.recycle();
         }
 
-        LayoutInflater.from(context).inflate(R.layout.button_longtap, this);
+        LayoutInflater.from(context).inflate(R.layout.button_longclick, this);
         setPadding(0,0,0,0);
 
         TextView b = ((TextView) findViewById(R.id.text)),
