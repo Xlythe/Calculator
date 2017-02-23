@@ -26,7 +26,6 @@
         <attr name="text" format="string" />
         <attr name="altText" format="string" />
         <attr name="altTextSize" format="dimension" />
-        <attr name="style" format="reference" />
         <attr name="textStyle" format="reference" />
     </declare-styleable>
 </resources>

@@ -16,37 +16,40 @@ import com.xlythe.calculator.material.R;
  */
 
 public class LongClickButton extends RelativeLayout {
-    /*Default value for altTextSize*/
-    private static int ALT_TEXT_SIZE = 16;
-
 	private String mText, mAltText;
     private float altTextSize;
     private static int mTextStyle = R.style.PadButtonStyle_Advanced;
 
 	public LongClickButton(Context context) {
-		super(context, null, R.attr.style);
-        init(context, null);
+		super(context);
+        init(context, null, 0);
     }
 
 	public LongClickButton(Context context, AttributeSet attrs) {
-		super(context, attrs, R.attr.style);
-        init(context, attrs);
+		super(context, attrs);
+        init(context, attrs, 0);
     }
 
-    private void init(Context context, AttributeSet attrs) {
+    public LongClickButton(Context context, AttributeSet attrs, int defStyle) {
+		super(context, attrs, defStyle);
+        init(context, attrs, defStyle);
+    }
+
+    private void init(Context context, AttributeSet attrs, int defStyle) {
         TypedArray a = context.getTheme().obtainStyledAttributes(attrs, R.styleable.LongClickButton,
-                0, 0);
+                defStyle, R.style.PadButtonStyle_LongClick);
 
         try {
             mText = a.getString(R.styleable.LongClickButton_text);
             mAltText = a.getString(R.styleable.LongClickButton_altText);
-            altTextSize = a.getDimension(R.styleable.LongClickButton_altTextSize, ALT_TEXT_SIZE);
+            altTextSize = a.getDimension(R.styleable.LongClickButton_altTextSize, 0);
             mTextStyle = a.getResourceId(R.styleable.LongClickButton_textStyle, mTextStyle);
         } finally {
             a.recycle();
         }
 
         LayoutInflater.from(context).inflate(R.layout.button_longtap, this);
+        setPadding(0,0,0,0);
 
         TextView b = ((TextView) findViewById(R.id.text)),
                 alt = ((TextView) findViewById(R.id.alt_text));

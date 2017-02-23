@@ -34,6 +34,11 @@
         <item name="android:textSize">48sp</item>
     </style>
 
+    <style name="PadButtonStyle.LongClick">
+        <item name="android:textSize">10sp</item>
+        <item name="altTextSize">10sp</item>
+    </style>
+
     <style name="PadButtonStyle.Advanced">
         <item name="android:textColor">@color/pad_button_advanced_text_color</item>
         <item name="android:textSize">27sp</item>
