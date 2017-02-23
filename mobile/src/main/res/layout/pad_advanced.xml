@@ -25,6 +25,7 @@
         android:id="@+id/fun_sin"
         android:contentDescription="@string/desc_fun_sin"
         android:onClick="onButtonClick"
+        longtap:style="@style/PadButtonStyle.Advanced"
         longtap:text="@string/fun_sin"
         longtap:altText="@string/fun_arcsin"/>
 
@@ -34,6 +35,7 @@
         android:id="@+id/fun_cos"
         android:contentDescription="@string/desc_fun_cos"
         android:onClick="onButtonClick"
+        longtap:style="@style/PadButtonStyle.Advanced"
         longtap:text="@string/fun_cos"
         longtap:altText="@string/fun_arccos"/>
 
@@ -43,6 +45,7 @@
         android:id="@+id/fun_tan"
         android:contentDescription="@string/desc_fun_tan"
         android:onClick="onButtonClick"
+        longtap:style="@style/PadButtonStyle.Advanced"
         longtap:text="@string/fun_tan"
         longtap:altText="@string/fun_arctan"/>
 

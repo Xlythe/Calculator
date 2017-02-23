@@ -6,7 +6,6 @@ import android.content.res.TypedArray;
 import android.os.Build;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
-import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -20,6 +19,7 @@ import com.xlythe.calculator.material.R;
 public class LongTapButton extends RelativeLayout {
 
 	private String mText, mAltText;
+    private static int mStyle = R.style.PadButtonStyle_Advanced;
 
 	public LongTapButton(Context context) {
 		super(context);
@@ -29,19 +29,26 @@ public class LongTapButton extends RelativeLayout {
 	public LongTapButton(Context context, AttributeSet attrs) {
 		super(context, attrs);
 
-        TypedArray a = context.getTheme().obtainStyledAttributes(attrs, R.styleable.LongTapButton, 0, 0);
+        TypedArray a = context.getTheme().obtainStyledAttributes(attrs, R.styleable.LongTapButton,
+                0, 0);
 
 		try {
             mText = a.getString(R.styleable.LongTapButton_text);
             mAltText = a.getString(R.styleable.LongTapButton_altText);
-
+            mStyle = a.getResourceId(R.styleable.LongTapButton_style, mStyle);
 		} finally {
 			a.recycle();
 		}
 
         LayoutInflater.from(context).inflate(R.layout.button_longtap, this);
 
-        ((Button) findViewById(R.id.button)).setText(mText);
+        TextView b = ((TextView) findViewById(R.id.text));
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M)
+            b.setTextAppearance(mStyle);
+        else
+            b.setTextAppearance(context, mStyle);
+        b.setText(mText);
+
         ((TextView) findViewById(R.id.alt_text)).setText(mAltText);
 	}
 
@@ -63,4 +70,5 @@ public class LongTapButton extends RelativeLayout {
     public String getAltText() {
         return mAltText;
     }
+
 }

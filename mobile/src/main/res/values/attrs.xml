@@ -25,5 +25,6 @@
     <declare-styleable name="LongTapButton">
         <attr name="text" format="string" />
         <attr name="altText" format="string" />
+        <attr name="style" format="reference" />
     </declare-styleable>
 </resources>

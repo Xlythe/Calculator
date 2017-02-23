@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       style="@style/PadLayoutStyle.Advanced"
+       android:background="@color/pad_advanced_background_color">
 
     <TextView
         android:layout_width="wrap_content"
@@ -11,10 +13,9 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"/>
 
-    <Button
+    <TextView
         android:layout_height="match_parent"
         android:layout_width="match_parent"
-        android:id="@+id/button"
-        android:clickable="false"
-        style="@style/PadButtonStyle.Advanced"/>
-</merge>
+        android:id="@+id/text"
+        android:gravity="center"/>
+</RelativeLayout>

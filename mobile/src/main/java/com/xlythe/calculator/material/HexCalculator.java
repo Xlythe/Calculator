@@ -84,7 +84,7 @@ public abstract class HexCalculator extends PanelSwitchingCalculator {
     public void onButtonClick(View view) {
         switch (view.getId()) {
             case R.id.fun_cos:
-            case R.id.button:
+            case R.id.fun_sin:
             case R.id.fun_tan:
                 mShowTrigDetails = true;
                 invalidateDetails();
@@ -106,7 +106,7 @@ public abstract class HexCalculator extends PanelSwitchingCalculator {
     public boolean onLongClick(View view) {
         switch (view.getId()) {
             case R.id.fun_cos:
-            case R.id.button:
+            case R.id.fun_sin:
             case R.id.fun_tan:
                 mShowTrigDetails = true;
                 invalidateDetails();
