@@ -16,5 +16,6 @@
         android:layout_width="match_parent"
         android:id="@+id/text"
         android:gravity="center"
-        android:background="?android:attr/selectableItemBackground"/>
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_alignParentTop="true"/>
 </RelativeLayout>

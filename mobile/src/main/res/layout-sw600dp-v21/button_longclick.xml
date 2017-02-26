@@ -15,5 +15,6 @@
         android:layout_width="match_parent"
         android:id="@+id/text"
         android:gravity="center"
-        android:background="?android:attr/selectableItemBackgroundBorderless"/>
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:layout_alignParentTop="true"/>
 </RelativeLayout>

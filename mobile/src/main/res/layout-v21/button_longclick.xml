@@ -17,5 +17,6 @@
         android:id="@+id/text"
         android:gravity="center"
         android:background="?android:attr/selectableItemBackgroundBorderless"
-        android:layout_below="@+id/alt_text"/>
+        android:layout_below="@+id/alt_text"
+        android:layout_alignParentTop="true"/>
 </RelativeLayout>
