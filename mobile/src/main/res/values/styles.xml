@@ -141,6 +141,11 @@
         <item name="android:layout_height">match_parent</item>
     </style>
 
+    <style name="PadButtonStyle.LongClick">
+        <item name="android:textSize">20sp</item>
+        <item name="altTextSize">8sp</item>
+    </style>
+
     <style name="PadButtonStyle.FloatingCalc">
         <item name="android:textSize">20sp</item>
     </style>

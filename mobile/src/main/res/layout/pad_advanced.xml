@@ -14,40 +14,50 @@
   limitations under the License.
   -->
 <com.xlythe.calculator.material.view.CalculatorPadLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:longclick="http://schemas.android.com/apk/res-auto"
     android:id="@+id/pad_advanced"
     style="@style/PadLayoutStyle.Advanced"
     android:background="@color/pad_advanced_background_color">
 
-    <Button
+    <com.xlythe.calculator.material.view.LongClickButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
         android:id="@+id/fun_sin"
-        style="@style/PadButtonStyle.Advanced"
         android:contentDescription="@string/desc_fun_sin"
         android:onClick="onButtonClick"
-        android:tag="@string/fun_arcsin"
-        android:text="@string/fun_sin" />
+        style="@style/PadButtonStyle.LongClick"
+        longclick:textStyle="@style/PadButtonStyle.Advanced"
+        longclick:text="@string/fun_sin"
+        longclick:altText="@string/fun_arcsin"/>
 
-    <Button
+    <com.xlythe.calculator.material.view.LongClickButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
         android:id="@+id/fun_cos"
-        style="@style/PadButtonStyle.Advanced"
         android:contentDescription="@string/desc_fun_cos"
         android:onClick="onButtonClick"
-        android:tag="@string/fun_arccos"
-        android:text="@string/fun_cos" />
+        style="@style/PadButtonStyle.LongClick"
+        longclick:textStyle="@style/PadButtonStyle.Advanced"
+        longclick:text="@string/fun_cos"
+        longclick:altText="@string/fun_arccos"/>
 
-    <Button
+    <com.xlythe.calculator.material.view.LongClickButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
         android:id="@+id/fun_tan"
-        style="@style/PadButtonStyle.Advanced"
         android:contentDescription="@string/desc_fun_tan"
         android:onClick="onButtonClick"
-        android:tag="@string/fun_arctan"
-        android:text="@string/fun_tan" />
+        style="@style/PadButtonStyle.LongClick"
+        longclick:textStyle="@style/PadButtonStyle.Advanced"
+        longclick:text="@string/fun_tan"
+        longclick:altText="@string/fun_arctan"/>
 
     <Button
         android:id="@+id/fun_ln"
         style="@style/PadButtonStyle.Advanced"
         android:contentDescription="@string/desc_fun_ln"
         android:onClick="onButtonClick"
-        android:text="@string/fun_ln" />
+        android:text="@string/fun_ln"/>
 
     <Button
         android:id="@+id/fun_log"
@@ -82,19 +92,27 @@
         android:onClick="onButtonClick"
         android:text="@string/op_pow" />
 
-    <Button
+    <com.xlythe.calculator.material.view.LongClickButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
         android:id="@+id/lparen"
-        style="@style/PadButtonStyle.Advanced"
+        style="@style/PadButtonStyle.LongClick"
+        longclick:textStyle="@style/PadButtonStyle.Advanced"
         android:contentDescription="@string/desc_lparen"
         android:onClick="onButtonClick"
-        android:text="@string/leftParen" />
+        longclick:text="@string/leftParen"
+        longclick:altText="@string/allParen"/>
 
-    <Button
+    <com.xlythe.calculator.material.view.LongClickButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
         android:id="@+id/rparen"
-        style="@style/PadButtonStyle.Advanced"
+        style="@style/PadButtonStyle.LongClick"
+        longclick:textStyle="@style/PadButtonStyle.Advanced"
         android:contentDescription="@string/desc_rparen"
         android:onClick="onButtonClick"
-        android:text="@string/rightParen" />
+        longclick:text="@string/rightParen"
+        longclick:altText="@string/allParen"/>
 
     <Button
         style="@style/PadButtonStyle.Advanced"

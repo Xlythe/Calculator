@@ -26,8 +26,8 @@
     <string name="digit7" msgid="658125644218958447">"7"</string>
     <string name="digit8" msgid="3134686906411558886">"8"</string>
     <string name="digit9" msgid="765379157698748031">"9"</string>
-    <string name="del" msgid="6248896117422989693">"BORRAR"</string>
-    <string name="clear" msgid="8103610981407459768">"BORRAR"</string>
+    <string name="del" msgid="6248896117422989693">"DEL"</string>
+    <string name="clear" msgid="8103610981407459768">"AC"</string>
     <string name="fun_sin" msgid="6793866152659175277">"sen"</string>
     <string name="fun_cos" msgid="6901841853098114414">"cos"</string>
     <string name="fun_tan" msgid="7957459816738554960">"tan"</string>

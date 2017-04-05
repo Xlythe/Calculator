@@ -46,6 +46,7 @@ import com.xlythe.calculator.material.view.CalculatorPadView;
 import com.xlythe.calculator.material.view.DisplayOverlay;
 import com.xlythe.calculator.material.view.EqualsImageButton;
 import com.xlythe.calculator.material.view.FormattedNumberEditText;
+import com.xlythe.calculator.material.view.LongClickButton;
 import com.xlythe.calculator.material.view.ResizingEditText.OnTextSizeChangeListener;
 import com.xlythe.math.Constants;
 import com.xlythe.math.EquationFormatter;
@@ -372,9 +373,12 @@ public abstract class BasicCalculator extends Activity
             case R.id.parentheses:
                 mFormulaEditText.setText('(' + mFormulaEditText.getCleanText() + ')');
                 break;
-            case R.id.fun_cos:
             case R.id.fun_sin:
+            case R.id.fun_cos:
             case R.id.fun_tan:
+                // Add left parenthesis after functions.
+                insert(((LongClickButton) view).getText() + "(");
+                break;
             case R.id.fun_ln:
             case R.id.fun_log:
             case R.id.fun_det:
@@ -395,7 +399,10 @@ public abstract class BasicCalculator extends Activity
                 mFormulaEditText.insert(((Button) view).getText().toString());
                 break;
             default:
-                insert(((Button) view).getText().toString());
+                if(view instanceof LongClickButton)
+                    insert(((LongClickButton) view).getText());
+                else
+                    insert(((Button) view).getText().toString());
                 break;
         }
     }
@@ -413,13 +420,9 @@ public abstract class BasicCalculator extends Activity
                 mFormulaEditText.setText('(' + mFormulaEditText.getCleanText() + ')');
                 return true;
             case R.id.fun_sin:
-                insert(getString(R.string.fun_arcsin) + "(");
-                return true;
             case R.id.fun_cos:
-                insert(getString(R.string.fun_arccos) + "(");
-                return true;
             case R.id.fun_tan:
-                insert(getString(R.string.fun_arctan) + "(");
+                insert(((LongClickButton) view).getAltText() + "(");
                 return true;
         }
         return false;
