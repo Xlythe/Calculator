@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2012-2014 The CyanogenMod Project
+
+	 Licensed under the Apache License, Version 2.0 (the "License");
+	 you may not use this file except in compliance with the License.
+	 You may obtain a copy of the License at
+
+		  http://www.apache.org/licenses/LICENSE-2.0
+
+	 Unless required by applicable law or agreed to in writing, software
+	 distributed under the License is distributed on an "AS IS" BASIS,
+	 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	 See the License for the specific language governing permissions and
+	 limitations under the License.
+-->
+<resources>
+    <!-- App copyright -->
+    <string name="application_copyright">Kopirajto \u00A9 2014 La projekto CyanogenMod</string>
+    <!-- App version -->
+    <string name="application_version" translatable="false">v3.5.3</string>
+
+    <!-- Displayed letters for the variable digit buttons -->
+    <string name="X">X</string>
+    <!-- Displayed letters for the variable digit buttons -->
+    <string name="Y">Y</string>
+
+    <!-- Displayed on buttons on screen for the arcsin function. -->
+    <string name="arcsin">asin</string>
+    <!-- Displayed on buttons on screen for the arccos function. -->
+    <string name="arccos">acos</string>
+    <!-- Displayed on buttons on screen for the arctan function. -->
+    <string name="arctan">atg</string>
+
+    <!-- (Hidden) Displayed on buttons on screen for the integral function. -->
+    <string name="dx">dX</string>
+    <!-- (Hidden) Displayed on buttons on screen for the integral function. -->
+    <string name="dy">dY</string>
+    <!-- (Hidden) Displayed on buttons on screen to solve for X. -->
+    <string name="solveForX">Solvi por X</string>
+    <!-- (Hidden) Displayed on buttons on screen to solve for Y. -->
+    <string name="solveForY">Solvi por Y</string>
+    <!-- (Hidden) Displayed on buttons on screen for the modulo function. -->
+    <string name="mod">mod</string>
+    <!-- Displayed on button on screen for the cube root function. -->
+    <string name="cbrt">\u00b3\u221a</string>
+
+    <!-- Menu item text to take user to the screen with matrices. -->
+    <string name="matrix">Matrica panelo</string>
+    <!-- Menu item text to take user to the screen with the graph. -->
+    <string name="graph">Diagrama panelo</string>
+    <!-- Menu item text to take user to the screen with the function operators. -->
+    <string name="function">Funkcia panelo</string>
+    <!-- Menu item text to take user to the screen with the hex digits and operators. -->
+    <string name="hexPanel">Deksesuma panelo</string>
+    <!-- Menu item text to lock view pager. -->
+    <string name="lock">Ŝlosi paĝon</string>
+    <!-- Menu item text to unlock view pager. -->
+    <string name="unlock">Malŝlosi paĝon</string>
+    <!-- Menu item text to explain themes. -->
+    <string name="info">Pri</string>
+
+    <string name="copy">Kopii \'%s\'</string>
+    <!-- Menu item for removing item from history -->
+    <string name="remove_from_history">Forigi el historio</string>
+    <!-- Menu item for viewing history -->
+    <string name="showHistory">Montri historion</string>
+    <!-- Menu item for hiding history -->
+    <string name="hideHistory">Kaŝi historion</string>
+    <!-- Menu item for entering settings -->
+    <string name="settings">Agordoj</string>
+    <!-- Menu item for entering store -->
+    <string name="store">Vendejo</string>
+
+    <!-- Matrix page text -->
+    <string name="det">det</string>
+    <string name="eigenvalue">Ajgeno</string>
+    <string name="solve">Solvi</string>
+    <string name="dotProduct">Skalar</string>
+    <string name="crossProduct">Vektor</string>
+    <string name="determinantDesc">Determinanto</string>
+    <string name="eigenvalueDesc">Ajgenvaloroj</string>
+    <string name="plus_row">+Vic</string>
+    <string name="minus_row">-Vic</string>
+    <string name="plus_col">+Kol</string>
+    <string name="minus_col">-Kol</string>
+    <string name="matrix_transpose">T</string>
+    <string name="next">Sekva</string>
+
+    <!-- Hex page text -->
+    <string name="hex">16-uma</string>
+    <string name="bin">2-uma</string>
+    <string name="dec">10-uma</string>
+    <string name="hexDesc">Deksesuma</string>
+    <string name="binDesc">Duuma</string>
+    <string name="decDesc">Dekuma</string>
+
+    <!-- Settings page text -->
+    <string name="pref_panels">Paneloj</string>
+    <string name="pref_actions">Agoj</string>
+    <string name="pref_units">Unuoj</string>
+    <string name="pref_theme">Etoso</string>
+    <string name="pref_about">Pri</string>
+    <string name="returnToBasic">Reen al baza panelo</string>
+    <string name="infiniteScrolling">Senfina rulumado</string>
+    <string name="clickToOpenHistory">Alklaku por malfermi historion</string>
+    <string name="digitGrouping">Arigi ciferojn</string>
+    <string name="trigUnits">Trigonometriaj unuoj</string>
+    <string name="radians">radianoj</string>
+    <string name="degrees">gradoj</string>
+    <string name="theme">Etoso</string>
+    <string name="showDetails">Montri detalojn</string>
+    <string name="floatingCalc">Glita kalkulilo</string>
+    <string name="vibrateOnPress">Vibri je alklako</string>
+    <string name="showWidgetBackground">Montri fenestraĵan fonon</string>
+
+    <!-- Clings -->
+    <string name="cling_simple_title">Saluton</string>
+    <string name="cling_simple_msg">Tiru (mal)dekstren por akiri pli da funkcioj. Malnepraj paĝoj estas kaŝeblaj per agordoj.</string>
+    <string name="cling_matrix_title">Matricoj</string>
+    <string name="cling_matrix_msg">Frapetu ĉi tie por eki konstrui kaj solvi matricojn.</string>
+    <string name="cling_hex_title">Ŝanĝi bazon</string>
+    <string name="cling_hex_msg">Elektu inter dekuman, duuman (binaran), kaj deksesuman nombrosistemojn.\n\nAtentu: se vi rigardas, ke vi akiras malkorektajn rezultojn, vi probable estas en misa bazo. La implicita estas dekuma.</string>
+    <string name="cling_graph_title">Diagramoj</string>
+    <string name="cling_graph_msg">Diagramoj aŭtomate aperos ĉi tie. Iru al sperta panelo kaj difinu funkcion uzante X kaj Y.</string>
+    <string name="cling_dismiss">Bone</string>
+
+    <!-- Separators for dec, bin, and hex. Must be 1 charater! -->
+    <string name="dec_separator">,</string>
+    <string name="bin_separator">\u0020</string>
+    <string name="hex_separator">\u0020</string>
+    <item name="dec_separator_distance" type="integer">3</item>
+    <item name="bin_separator_distance" type="integer">4</item>
+    <item name="hex_separator_distance" type="integer">2</item>
+
+    <!-- Decimal point. -->
+    <string name="dot">,</string>
+
+    <!-- Store text -->
+    <string name="store_tab_themes">Etosoj</string>
+    <string name="store_tab_extensions">Kromaĵoj</string>
+    <string name="store_price_installed">Instalitaj</string>
+    <string name="store_price_free">Senpagaj</string>
+    <string name="store_info_text">Etosoj ebligas ŝanĝi la fasadon de Kalkulilo. Ili estas potencaj, ebligante al vi alĝustigi plejparte da tiparoj, bildoj kaj koloroj.\n\nIu ajn povas fari sian etoson kaj kunhavigi ĝin. La rapidaĉa gvidilo estas disponebla ĉi tie: http://xlythe.com/calculator/theme.html\n\nSe vi havas iun demandon, aŭ vi havas etoson kaj volas aldoni ĝin al la vendejo, sendu retmesaĝon al xlythe@gmail.com. Ekronokopioj nepras por aldoni al vendejo.</string>
+
+    <string name="easter_egg">Maĝikarpo uzis Splaŝon sed nenio okazis.</string>
+
+    <!-- Glass strings -->
+    <string name="glass_start">Calculate</string>
+    <string name="glass_hint">Ask a math question. For example "What's the square root of 8?"</string>
+    <string name="voice_detection_failed">No message recorded</string>
+    <string name="voice_detection_repeat">Tap to speak again</string>
+    <string name="glass_again">Try again</string>
+    <string name="speech_helper_negative" formatted="false">Negative %s</string>
+    <string name="speech_helper_equals" formatted="false">%s equals %s</string>
+</resources>
