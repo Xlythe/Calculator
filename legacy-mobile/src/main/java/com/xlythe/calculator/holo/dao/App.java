@@ -43,10 +43,14 @@ public class App extends RemoteModel<App> {
         return imageUrl;
     }
 
+    public String getCustomUrl() {
+        return customUrl;
+    }
+
     public static class Query extends RemoteModel.Query<App> {
         public Query(Context context) {
             super(App.class, context);
-            url("http://xlythe.com/calculator/store/themes.json");
+            url("https://xlythe.com/calculator/store/themes.json");
         }
     }
 }
