@@ -137,7 +137,9 @@ public class ThemesFragment extends Fragment implements OnItemClickListener, OnI
             getActivity().overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
         } else {
             Intent intent = new Intent(Intent.ACTION_VIEW);
-            intent.setData(Uri.parse("market://details?id=" + mThemes.get(position).getPackageName()));
+            String customUrl = mThemes.get(position).getCustomUrl();
+            intent.setData(Uri.parse(customUrl != null && !customUrl.isEmpty()
+                    ? customUrl : "market://details?id=" + mThemes.get(position).getPackageName()));
             getActivity().startActivity(intent);
         }
     }
@@ -150,7 +152,9 @@ public class ThemesFragment extends Fragment implements OnItemClickListener, OnI
     public boolean onListItemLongClick(int position) {
         if (App.doesPackageExists(getContext(), mThemes.get(position).getPackageName())) {
             Intent intent = new Intent(Intent.ACTION_VIEW);
-            intent.setData(Uri.parse("market://details?id=" + mThemes.get(position).getPackageName()));
+            String customUrl = mThemes.get(position).getCustomUrl();
+            intent.setData(Uri.parse(customUrl != null && !customUrl.isEmpty()
+                    ? customUrl : "market://details?id=" + mThemes.get(position).getPackageName()));
             startActivity(intent);
             return true;
         }
